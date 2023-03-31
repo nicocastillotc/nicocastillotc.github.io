@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+body {
+    font-family: open, sans-serif;
+    margin: 0;
+}
+.degrade {
+    background: linear-gradient(360deg, rgb(236, 219, 205), rgb(252, 249, 249));
+    margin: 0px 0px 100px 60px;
+    max-width: 100%;
+    height: auto;
+}
+.grilla {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+    padding: 25px 30px 0px 25px;
+}
+.intro {
+    display: legacy;
+    margin: 100;
+}
+.nombres {
+    font-family: "Climate+Crisis";
+    font-weight:350;
+    font-size: 65px;
+    margin-bottom: 15px;
+}
+.adicional {
+    font-family: "Climate+Crisis";
+    font-weight: 200;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.descripcion {
+    font-family: "Climate+Crisis";
+    font-weight: 80;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.icono {
+    max-width: 30px;
+    padding: 20px 10px 30px 0px;
+}
+.perfil {
+    max-width: 150%;
+    height: auto;
+    
+}
+.caja {
+    background: linear-gradient(50deg, rgb(252, 249, 249), rgb(236, 219, 205));
+    border-radius: 12px;
+    height: auto;
+    max-width: 90%;
+    padding: 30px;
+    margin: 20px 20px 75px 100px;
+}
+.titulo {
+    font-family: "Climate+Crisis";
+    font-weight: 400;
+    font-size: 25px;
+    margin:0;
+    
+}
+.text {
+    font-family: "Climate Crisis";
+    font-weight: 200;
+    font-size: 15px;
+    margin: 0;
+}
+.botones {
+    position: fixed;
+    left: 8px;
+    top: 5px;
+    background: linear-gradient(50deg, rgb(8, 8, 8), rgb(236, 219, 205));
+    border-radius: 5px;
+    height: auto;
+}
+.boton {
+    width: 50px;
+    display: block;
+    padding: 5px;
+
+}
